@@ -11,6 +11,7 @@ public abstract class CssSelectors {
 		driver.get("https://demowebshop.tricentis.com/");
 		driver.findElement(By.cssSelector("input[id='newsletter-email']"));
 		driver.findElement(By.cssSelector("input[value='Search']")).click();
+		
 
 	}
 

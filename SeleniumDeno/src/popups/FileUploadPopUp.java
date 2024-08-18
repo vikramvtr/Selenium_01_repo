@@ -17,7 +17,7 @@ public class FileUploadPopUp {
 		driver.findElement(By.id("register_Layer")).click();
 		driver.findElement(By.xpath("//h2[text()=\"I'm experienced\"]")).click();
 		
-		driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Users\\vikra\\eclipse-workspace\\SeleniumDeno\\resume\\VikramT_QA.pdf");
+		driver.findElement(By.xpath("//input[@type='file']")).sendKeys("C:\\Users\\vikra\\git\\repository\\SeleniumDeno\\resume\\VikramT_QA.pdf");
 
 	}
 

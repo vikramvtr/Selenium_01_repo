@@ -17,7 +17,7 @@ public class HiddenDivision {
 		Thread.sleep(7000);
 		driver.findElement(By.xpath("//span[.='Departure']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//div[text()='July 2024']/../..//p[text()='15']")).click();
+		driver.findElement(By.xpath("//div[text()='August 2024']/../..//p[text()='24']")).click();
 		
 
 	}
